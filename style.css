@@ -240,7 +240,7 @@ video{
     position: absolute;
     font-size: 200%;
     color: white;
-    transform: translate(15%,-300px);
+    transform: translate(15%,-150px);
 }
 .buttond{
     background-color:transparent;
@@ -266,6 +266,7 @@ video{
         display: block;
     }
         .navd-change,.button-change{
+            background-color:white;
             height: 30%;
         border: 2px solid grey;
         font-family: 'Inter', sans-serif;
