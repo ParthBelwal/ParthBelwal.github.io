@@ -1,0 +1,354 @@
+*{
+margin: 0px;
+border: 0px;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+.button{
+background-color: blue;
+border-radius: 30px;
+font-family: 'Inter', sans-serif;
+border: 2px solid whitesmoke;
+color: rgb(255, 255, 255);
+padding: 10px 10px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+margin-left: 30px;
+transition: all 0.4s;
+text-decoration: none;
+}
+.button:hover{
+    transform: scale(1.2);
+}
+hr{
+    border-bottom: 2px solid gray;
+}
+.navd,.navd1{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    transition:all 0.4s;
+}
+.navd:hover{
+    transform: scale(1.2);
+}
+.start{
+    cursor: pointer;
+    float: left;
+    transition: all 0.4s;
+    margin: 10px 6% ;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: black;
+
+}
+.start:hover{
+    transform: scale(1.2);
+}
+.menu{
+    margin-top: 20px;
+    margin-right: 4px;
+    font-family: 'Inter', sans-serif;
+}
+.bar1,.bar2,.bar3{
+    display: block;
+    color: black;
+    width: 40px;
+    height: 0px;
+
+    margin: 7px auto;
+    border:2px solid black;
+    transition: 0.4s;
+}
+.container{
+    border: 2px solid grey;
+    cursor: pointer;
+    display: none;
+}
+.ham{
+    cursor: pointer;
+    display: none;
+    height: auto;
+    margin-top:10px;
+    color: black;
+}
+.linksd{
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+    /* justify-content: space-around; */
+}
+.container1{
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    grid-row:auto ;
+}
+h1{
+    text-align: center;
+    margin-top: 40%;
+    margin-bottom: 5%;
+    font-size: 60px;
+}
+h3{
+    color: gray;
+    text-align: center;
+}
+.right{
+    height:95%;
+    position: relative;
+    margin: 50px;
+}
+.google{ 
+margin:2% 2% 2% 18%;
+cursor: pointer;
+}
+.apple{
+    margin:2% ;
+    cursor: pointer;
+}
+video{
+    position: relative;
+    height: 70%;
+    width: 81%;
+    top: 6%;
+    border-radius: 24%;
+}
+    .overlay {
+    position:absolute;
+    width: 66%;
+    top: 5%;
+    left: 8%;
+    height: 73%;
+}
+.tnw{
+    background-image: linear-gradient(to right , rgb(20, 7, 201), rgb(231, 80, 231));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tnwp{
+    margin: 5%;
+    font-size: 30px;
+    color: white;
+}
+.tnwl{
+    margin-bottom: 5%;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.video1{
+    position:relative;
+    top:16vh ;
+    width: 40vh;
+    left: 5vh;
+    height: 43%;
+    
+    border-radius: 15%;
+}
+.overlay1 {
+    position:relative;
+    left: 7%;
+    top: -38%;
+    margin-top: 8%;
+    margin-left: 2%;
+    height: 75vh;
+    width: 60%;
+}
+.right1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 18%;
+}
+.fa-mobile,.fa-camera,.fa-gift,.fa-check-circle{
+    color: rgb(88, 24, 148);
+    size: 1x;
+}
+.device,.camera,.gift,.check{
+    text-align: center;
+    padding: 20px;
+    color: grey;
+    font-size: 14px;
+}
+.iconhead{
+    font-size: 24px;
+    color: black;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.circle{
+    margin-left: 10%;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    margin-bottom: 10%;
+}
+.left2{
+    position: relative;
+}
+.applicationhead{
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 70px;
+}
+.applicationsubject{
+    margin-left: 10%;
+    font-size: 20px;
+    color: grey;
+}
+.last{
+    align-items: stretch;
+    text-align: center;
+    background-color: black;
+    border: 40px solid black;
+    color: rgba(255, 255, 255, 0.473);
+}
+.footnotes{
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+.getapp{
+    background-image: linear-gradient(to right , rgb(20, 7, 201), rgb(231, 80, 231));
+    text-align: center;
+    padding-top: 50px;
+}
+.now{
+    font-size: 32px;
+    color: white;
+}
+.pic{
+    background: rgba(0,0,0,0.3);
+}
+.hand{
+   max-width: 100%;
+   max-height: 100%;
+   
+}
+.build{
+    background-color: transparent;
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    transform: translate(15%,-300px);
+}
+.buttond{
+    background-color:transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.google1,.apple1{
+    cursor: pointer;
+}
+@media(max-width:900px) {
+    .linksd{
+        display: none;
+    }
+    .container{
+        display: block;
+    }
+        .navd-change,.button-change{
+            height: 30%;
+        border: 2px solid grey;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        margin-bottom: 10%; 
+        display: flex;
+        justify-content: space-around;
+        position:absolute;   
+        top:6vh;  
+        left:10px;  
+        flex-direction:column; 
+        }
+        hr{
+            display: none;
+        }
+            
+        .ham{  
+        display:block;
+        justify-content: center;
+        width: 60px;  
+        float: right;
+        margin-right: 10%;
+        border: 2px solid grey;
+        }  
+        .change .bar1 {  
+        transform: rotate(45deg) translate(12px,3px);  
+        margin-left: 2px;
+        }  
+        .change .bar2 {  
+        opacity: 0;  
+        }  
+        .change .bar3 {  
+        transform: rotate(-45deg) translate(12px,-3px);  
+        margin-left: 2px;
+        }  
+        .container1{
+            display: block;
+        }
+        video{
+            height: 10%;
+            width: 55%;
+            left:21%;
+            border-radius: 8%;
+        }
+        .overlay{
+            width: 60%;
+            height: 101%;
+            left: 19%;
+            top: -1%;
+        }
+        .tnwp{
+            font-size: 20px;
+        }
+        .container2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .right1{
+            display: flex;
+            flex-direction: column;
+        }
+        .build{
+            top: auto;
+        }
+        .container3{
+            display: block;
+        }
+        .circle{
+            height: 70%;
+            width:70%;
+            margin:10px 15%;
+        }
+        .google,.apple{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin-left: 35%;
+        }
+        .google1,.apple1{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin-left: 32%;
+        }
+        
+    }
