@@ -99,7 +99,7 @@ h3{
     text-align: center;
 }
 .right{
-    height:95%;
+    height:90%;
     position: relative;
     margin: 50px;
 }
@@ -114,15 +114,16 @@ cursor: pointer;
 video{
     position: relative;
     height: 70%;
-    width: 81%;
+    width: 84%;
     top: 6%;
+    left: 7%;
     border-radius: 24%;
 }
     .overlay {
     position:absolute;
     width: 66%;
     top: 5%;
-    left: 8%;
+    left: 16%;
     height: 73%;
 }
 .tnw{
