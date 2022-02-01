@@ -175,10 +175,15 @@ video{
     size: 1x;
 }
 .device,.camera,.gift,.check{
+    transiton:all 1s;
     text-align: center;
     padding: 20px;
     color: grey;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.device:hover,.camera:hover,.gift:hover,.check:hover{
+    transform: scale(1.2);
 }
 .iconhead{
     font-size: 24px;
