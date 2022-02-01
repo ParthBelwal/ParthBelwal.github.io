@@ -30,7 +30,7 @@ hr{
     color: black;
     margin-top: 20px;
     margin-left: 30px;
-    transition:all 0.4s;
+    transition:all 1s;
 }
 .navd:hover{
     transform: scale(1.2);
