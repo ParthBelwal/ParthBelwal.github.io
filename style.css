@@ -175,7 +175,7 @@ video{
     size: 1x;
 }
 .device,.camera,.gift,.check{
-    transiton:all 1s;
+    transiton: all 1s;
     text-align: center;
     padding: 20px;
     color: grey;
