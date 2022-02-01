@@ -15,7 +15,7 @@ text-align: center;
 display: inline-block;
 font-size: 20px;
 margin-left: 30px;
-transition: all 0.4s;
+transition: all 1s;
 text-decoration: none;
 }
 .button:hover{
@@ -246,6 +246,7 @@ video{
     transform: translate(15%,-150px);
 }
 .buttond{
+    transition:all 1s;
     background-color:transparent;
   border: 2px solid white;
   color: white;
@@ -257,6 +258,10 @@ video{
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 30px;
+}
+
+.buttond:hover{
+    transform: scale(1.2);
 }
 .google1,.apple1{
     cursor: pointer;
