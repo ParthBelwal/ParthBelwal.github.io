@@ -73,7 +73,6 @@ transition: 0.4s;
 }
 .container{
 border: 2px solid grey;
-cursor: pointer;
 }
 .ham{
 
@@ -283,6 +282,7 @@ display: none;
 }
 .container{
 display: block;
+max-width:100%;
 }
 
 .navd-change,.button-change{
