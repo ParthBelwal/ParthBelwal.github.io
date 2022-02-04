@@ -74,9 +74,9 @@ transition: 0.4s;
 .container{
 border: 2px solid grey;
 cursor: pointer;
-display: none;
 }
 .ham{
+
 cursor: pointer;
 display: none;
 height: auto;
@@ -179,7 +179,6 @@ padding: 18%;
 }
 .fa-mobile,.fa-camera,.fa-gift,.fa-check-circle{
 color: rgb(88, 24, 148);
-size: 1x;
 }
 .device,.camera,.gift,.check{
 transition: all 1s;
@@ -310,12 +309,11 @@ hr{
 }
     
 .ham{  
-display:block;
+display:flex;
+flex-wrap: wrap;
 justify-content: center;
-width: 60px;  
 float: right;
-margin-right: 10%;
-border: 2px solid grey;
+margin-right: 2%;
 }  
 .change .bar1 {  
 transform: rotate(45deg) translate(12px,3px);  
@@ -378,3 +376,4 @@ video{
 }
 
 }
+
