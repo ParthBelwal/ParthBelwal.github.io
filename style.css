@@ -34,9 +34,6 @@ text-decoration: none;
 .button:hover{
 transform: scale(1.2);
 }
-hr{
-border-bottom: 2px solid gray;
-}
 .navd,.navd1{
 text-decoration: none;
 font-family: 'Inter', sans-serif;
@@ -52,7 +49,7 @@ transform: scale(1.2);
 cursor: pointer;
 float: left;
 transition: all 0.4s;
-margin: 10px 6% ;
+margin: 20px 6% ;
 font-family: 'Inter', sans-serif;
 font-size: 24px;
 color: black;
@@ -86,7 +83,7 @@ color: black;
 display: flex;
 justify-content: right;
 margin: 5px;
-/* justify-content: space-around; */
+    margin-right:5%;
 }
 .container1{
 clear: both;
